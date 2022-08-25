@@ -519,6 +519,7 @@ link:visited {
 
 .join-us {
     max-width: 206px;
+    margin-left: 70px;
 }
 
 .join-title {
@@ -532,7 +533,6 @@ link:visited {
 
 .footer-flex {
     display: flex;
-    gap: 70px;
     align-items: baseline;
 }
 
@@ -917,7 +917,7 @@ img {
 }
 
 .footer-subscribing {
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .footer-subscribing-title {
