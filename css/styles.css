@@ -730,6 +730,11 @@ img {
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    transition: border-color 250ms var(--cubic);
+}
+
+.modal-close:hover {
+    border-color: var(--accent-color);
 }
 
 .is-hidden {
@@ -743,6 +748,11 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: fill 250ms var(--cubic);
+}
+
+.modal-close:hover .close-icon {
+    fill: var(--accent-color);
 }
 
 .modal-title {
